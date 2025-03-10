@@ -1,0 +1,97 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Merriweather', serif;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #ff6347;
+    color: white;
+    padding: 20px;
+  }
+  
+  header .navbar h1 {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background: url('https://via.placeholder.com/1200x500.png?text=Chapeuzinho+Vermelho') center/cover no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: white;
+  }
+  
+  .hero h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.5em;
+  }
+  
+  .btn-primary {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .gallery {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .image-slider {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  footer {
+    background-color: #444;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  
